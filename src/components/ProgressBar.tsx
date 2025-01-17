@@ -5,7 +5,7 @@ export const ProgressBar = () => {
   const [progressPercent, setProgressPercent] = useState(50);
 
   return (
-    <div className="container main">
+    <div className="main">
       <h1>Progress Bar</h1>
       <div className="progress">
         <div
