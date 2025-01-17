@@ -1,0 +1,15 @@
+.list-group-item{
+    display: inline-flex 
+}
+
+.btn{
+    margin: 0px;
+}
+
+.btn-close{
+    margin-right: 5px;
+}
+
+.form-group{
+    margin-top: 20px;
+}
