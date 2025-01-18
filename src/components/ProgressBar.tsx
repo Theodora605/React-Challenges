@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./ProgressBar.css";
 
 export const ProgressBar = () => {
-  const [progressPercent, setProgressPercent] = useState(50);
+  const [progressPercent, setProgressPercent] = useState(0);
 
   return (
     <div className="main">
@@ -21,6 +21,7 @@ export const ProgressBar = () => {
         <input
           className="percent-input"
           type="number"
+          defaultValue={0}
           onChange={(e) => {
             let value = Number.parseInt(e.currentTarget.value);
             if (!isNaN(value)) {
